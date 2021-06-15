@@ -1,0 +1,16 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node Server for LetsChat Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ashutosh Mohanty",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {}
+}
