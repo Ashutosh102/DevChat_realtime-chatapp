@@ -1,11 +1,11 @@
-const socket = io('http://localhost:8000');
+const socket = io('port');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container')
 
 var audio = new Audio('ting.mp3');
-
+var port = process.env.PORT || 8000;
 const append = (message, position)=>{
     const messageElement = document.createElement('div');
     messageElement.innerText = message;
